@@ -1,0 +1,48 @@
+:root{
+    --cor_botao: rgb(255, 251, 0);
+    --cor_fundo: rgb(195, 0, 255);
+}
+ontador
+body{
+    background-color: rgb(189, 192, 0);
+}
+
+section {
+    background-color: var(--cor_fundo);
+    color: var(--cor_letra);
+    height: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 85px;
+    text-align: center;
+}
+
+#botao {
+    background-color: var(--cor_botao);
+    font-size: 35px;
+}
+
+#botao1 {
+    background-color: var(--cor_botao);
+    font-size: 35px;
+}
+
+#botao2 {
+    background-color: var(--cor_botao);
+    font-size: 35px;
+}
+
+.botao {
+    width: 417px;
+    height: 50px;
+}
+
+.botao :first-child {
+    border-radius: 30% 0 0 0 ;
+}
+
+.botao :last-child {
+
+}
